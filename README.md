@@ -1,6 +1,6 @@
 # java-sample
 
-TossPayments 결제연동 Java 샘플 코드입니다. Spring Boot로 구성되었습니다.
+Toss Payments 결제연동 Java 샘플 코드입니다. Spring Boot로 구성되었습니다.
 
 ## 테스트하기
 
