@@ -12,6 +12,12 @@ repositories {
     mavenCentral()
 }
 
+// Log4J2 Vulnerability (CVE-2021-44228)
+// https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44228
+// https://logging.apache.org/log4j/2.x/security.html
+// https://spring.io/blog/2021/12/10/log4j2-vulnerability-and-spring-boot
+ext['log4j2.version'] = '2.15.0'
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
     implementation 'org.springframework.boot:spring-boot-starter-web'
